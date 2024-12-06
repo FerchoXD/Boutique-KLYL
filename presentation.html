@@ -17,6 +17,56 @@
             background-attachment: fixed;
         }
 
+        /* Estilos básicos del contenedor */
+#Presentacion {
+    display: flex; /* Flexbox para centrar contenido */
+    flex-direction: column; /* Asegura que los elementos estén en columna */
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center; /* Centra verticalmente */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centra el texto dentro del contenedor */
+}
+
+/* Estilo para el título */
+#Presentacion .section-title {
+    font-size: 2rem; /* Tamaño de fuente */
+    margin-bottom: 20px; /* Espaciado debajo del título */
+    color: #333; /* Color del texto */
+}
+
+/* Estilo para la imagen */
+.responsive-img {
+    max-width: 100%; /* Ajusta al ancho del contenedor */
+    height: auto; /* Mantiene las proporciones */
+    display: block; /* Evita espacios en línea alrededor de la imagen */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    border-radius: 10px; /* Bordes redondeados (opcional) */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para estética */
+}
+
+/* Media Queries para pantallas pequeñas */
+@media (max-width: 768px) {
+    #Presentacion .section-title {
+        font-size: 1.8rem; /* Ajusta el tamaño del texto */
+    }
+
+    .responsive-img {
+        width: 90%; /* Ajusta el ancho de la imagen */
+    }
+}
+
+@media (max-width: 480px) {
+    #Presentacion .section-title {
+        font-size: 1.5rem; /* Más pequeño para pantallas muy pequeñas */
+    }
+
+    .responsive-img {
+        width: 100%; /* La imagen ocupa todo el ancho del contenedor */
+    }
+}
+
+
+
         .content {
             background-color: rgba(0, 0, 0, 0.8);
             padding: 20px;
@@ -57,9 +107,10 @@
 
         <div id="Presentacion" class="content jumbotron">
             <h2 class="section-title">Presentación</h2>
-            <img src="./assets/presentacion.png" style="width: 850px;">
+            <img src="./assets/presentacion.png" class="responsive-img">
         </div>
-
+        
+        
         <!-- Justificación -->
         <div id="justificacion" class="content  jumbotron" >
             <h2 class="section-title">Justificación</h2>
