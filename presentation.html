@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación del Proyecto</title>
+    <!-- Enlace al CSS de Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="apple-touch-icon" href="assets/3.svg">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/3.ico">
+    <style>
+        body {
+            background-image: url('./assets/img/fondo.gif');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .content {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .jumbotron {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #ffff;
+        }
+        a.btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <a class="btn btn-primary" href="index.html" style="color: white; margin: 30px;">Regresar</a>
+    <div class="jumbotron text-center">
+        <!-- Portada -->
+        <h1 class="display-4">KLYL - Boutique</h1>
+        <p class="lead">Proyecto de programación</p>
+    </div>
+
+    <div class="container">
+        <!-- Índice -->
+        <div class="content jumbotron">
+            <h2 class="section-title">Índice</h2>
+            <ul>
+                <li><a href="#presentacion" style="color: azure;">Presentacion</a></li>
+                <li><a href="#justificacion" style="color:azure">Justificación</a></li>
+                <li><a href="#objetivo" style="color: azure;">Objetivo</a></li>
+                <li><a href="#diseno-conceptual" style="color: azure;">Diseño Conceptual</a></li>
+                <li><a href="#diseno-logico" style="color: azure;">Diseño Lógico</a></li>
+                <li><a href="#referencias" style="color: azure;">Referencias</a></li>
+            </ul>
+        </div>
+
+        <div id="Presentacion" class="content jumbotron">
+            <h2 class="section-title">Presentación</h2>
+            <img src="./assets/presentacion.png" style="width: 850px;">
+        </div>
+
+        <!-- Justificación -->
+        <div id="justificacion" class="content  jumbotron" >
+            <h2 class="section-title">Justificación</h2>
+            <p>La creación de una página web como lo es <strong>KLYL - Boutique</strong> es esencial en el entorno actual debido a su capacidad de ampliar el alcance del mercado, permitiendo llegar a clientes más allá de su ubicación física. Ofrece disponibilidad 24/7, mejorando la conveniencia para los usuarios al permitirles explorar y adquirir productos en cualquier momento. Además, fortalece la credibilidad y confianza en la marca al proyectar una imagen profesional.
+                Un sitio web facilita estrategias de marketing digital efectivas, incrementando la visibilidad y atrayendo a un público más amplio. También mejora la gestión del inventario y el análisis de datos, permitiendo optimizar las operaciones comerciales. Con el aumento de las compras en línea, contar con una presencia digital asegura que la boutique se mantenga competitiva en el mercado, adaptándose a las tendencias de consumo actuales. En resumen, una página web no solo expande el alcance y la disponibilidad, sino que también optimiza procesos y refuerza la relación con los clientes, posicionando a la boutique de manera favorable en un entorno digital.</p>
+        </div>
+
+        <!-- Objetivo -->
+        <div id="objetivo" class="content jumbotron">
+            <h2 class="section-title">Objetivo</h2>
+            <p>El <strong>objetivo central</strong> de desarrollar una página web para una boutique es establecer una plataforma digital eficiente y accesible que amplíe su alcance de mercado, optimice las operaciones comerciales y fortalezca la relación con los clientes, proporcionando una experiencia de usuario excepcional que combine conveniencia, confianza y personalización.
+
+                Este objetivo busca posicionar a <strong>KLYL - boutique</strong> de manera competitiva en el entorno digital, garantizando que los clientes puedan explorar y adquirir productos desde cualquier lugar y en cualquier momento, al tiempo que la marca aprovecha herramientas modernas para análisis de datos, estrategias de marketing y gestión de inventario. En esencia, el propósito es transformar la presencia física de la boutique en una experiencia digital que refleje calidad, profesionalismo y adaptabilidad a las tendencias actuales del mercado.</p>
+        </div>
+
+        <!-- Diseño Conceptual -->
+        <div id="diseno-conceptual" class="content jumbotron">
+            <h2 class="section-title">Diseño Conceptual</h2>
+            <div class="container my-5">
+                <h2>Diseño Conceptual para la Página Web de una Boutique</h2>
+                <p>
+                    El diseño conceptual de la página web de la boutique busca establecer una estructura intuitiva, elegante y funcional 
+                    que permita a los usuarios navegar de manera eficiente por las distintas secciones del sitio. Este diseño prioriza la 
+                    experiencia del usuario y refleja la identidad de la boutique, combinando estética y funcionalidad.
+                </p>
+            
+                <h3>Estructura Conceptual</h3>
+            
+                <h4>1. Inicio (Home):</h4>
+                <ul>
+                    <li><strong>Propósito:</strong> Ser la primera impresión del usuario, destacando promociones, productos populares y accesos rápidos a las secciones clave.</li>
+                    <li><strong>Componentes principales:</strong>
+                        <ul>
+                            <li>Banner de bienvenida con imágenes de alta calidad.</li>
+                            <li>Promociones destacadas en un carrusel dinámico.</li>
+                            <li>Botones de navegación hacia "Tienda", "Sobre Nosotros" y "Contáctanos".</li>
+                        </ul>
+                    </li>
+                </ul>
+            
+                <h4>2. Tienda (Shop):</h4>
+                <ul>
+                    <li><strong>Propósito:</strong> Mostrar el catálogo completo de productos con una navegación optimizada.</li>
+                    <li><strong>Componentes principales:</strong>
+                        <ul>
+                            <li>Categorías principales (Ropa, Calzado, Accesorios).</li>
+                            <li>Filtros avanzados (tamaño, precio, color).</li>
+                            <li>Carrito de compras integrado con actualización en tiempo real.</li>
+                        </ul>
+                    </li>
+                </ul>
+            
+                <h4>3. Sobre Nosotros (About Us):</h4>
+                <ul>
+                    <li><strong>Propósito:</strong> Narrar la historia y los valores de la boutique para construir una conexión emocional con los clientes.</li>
+                    <li><strong>Componentes principales:</strong>
+                        <ul>
+                            <li>Texto narrativo sobre la historia de la boutique.</li>
+                            <li>Imágenes representativas de los productos y el equipo.</li>
+                            <li>Valores y misión de la boutique.</li>
+                        </ul>
+                    </li>
+                </ul>
+            
+                <h4>4. Contáctanos (Contact Us):</h4>
+                <ul>
+                    <li><strong>Propósito:</strong> Facilitar la comunicación con los clientes y proporcionar información de contacto.</li>
+                    <li><strong>Componentes principales:</strong>
+                        <ul>
+                            <li>Formulario de contacto con campos básicos (Nombre, Correo, Mensaje).</li>
+                            <li>Mapa interactivo con la ubicación física de la boutique.</li>
+                            <li>Enlaces a redes sociales y correo electrónico.</li>
+                        </ul>
+                    </li>
+                </ul>
+            
+                <h4>5. Diseño Visual:</h4>
+                <ul>
+                    <li>Paleta de colores: Tonos elegantes y minimalistas (por ejemplo, blanco, negro y dorado).</li>
+                    <li>Tipografía: Fuentes modernas y legibles (como Roboto o Poppins).</li>
+                    <li>Imágenes de alta resolución para productos y banners.</li>
+                </ul>
+            
+                <h3>Diagrama Conceptual</h3>
+                <pre>
+            Inicio
+            │
+            ├── Tienda
+            │    ├── Categorías
+            │    └── Detalle de Producto → Carrito de Compras
+            ├── Sobre Nosotros
+            ├── Contáctanos
+            │    ├── Formulario
+            │    └── Mapa Interactivo
+            └── Footer (Redes Sociales, Políticas)
+                </pre>
+            
+                <h3>Interacciones Principales</h3>
+                <ol>
+                    <li><strong>Inicio:</strong> Los usuarios son recibidos con un banner interactivo que los guía a las promociones más relevantes.</li>
+                    <li><strong>Tienda:</strong> Navegación por categorías con filtros personalizables. Agregar productos al carrito desde la vista de catálogo o página de detalles.</li>
+                    <li><strong>Contáctanos:</strong> Enviar mensajes directamente desde el formulario. Ver la ubicación física mediante un mapa interactivo.</li>
+                </ol>
+            
+                <p>
+                    Este diseño conceptual garantiza que la página sea fácil de usar, visualmente atractiva y funcional, cumpliendo con el 
+                    objetivo central de conectar a la boutique con sus clientes en el entorno digital.
+                </p>
+            </div>
+            
+        </div>
+
+        <!-- Diseño Lógico -->
+        <div id="diseno-logico" class="content jumbotron">
+            <h2 class="section-title">Diseño Lógico</h2>
+            
+            <img src="./assets/diagrama.jpg" alt="" class="img-responsive center">
+        </div>
+
+        <!-- Referencias -->
+        <div id="referencias" class="content jumbotron">
+            <h2 class="section-title">Referencias</h2>
+            <div class="container my-5">
+                <h2>Referencias</h2>
+                <ul>
+                    <li>
+                        <a href="https://definicion.de/boutique/" target="_blank">Definición de Boutique</a> - Definicion.de
+                    </li>
+                    <li>
+                        <a href="https://dle.rae.es/boutique" target="_blank">Boutique - Diccionario de la lengua española</a> - RAE
+                    </li>
+                    <li>
+                        <a href="https://es.wikipedia.org/wiki/Boutique" target="_blank">Boutique</a> - Wikipedia
+                    </li>
+                    <li>
+                        <a href="https://es.wix.com/blog/guia-para-crear-paginas-web" target="_blank">Cómo crear una página web: Guía paso a paso</a> - Wix.com
+                    </li>
+                    <li>
+                        <a href="https://wordpress.com/es/gratuito/" target="_blank">Crea una web gratuita</a> - WordPress.com
+                    </li>
+                    <li>
+                        <a href="https://www.canva.com/es_es/constructor-sitios-web/" target="_blank">Crea páginas web gratis</a> - Canva
+                    </li>
+                    <li>
+                        <a href="https://blog.hubspot.es/website/que-es-bootstrap" target="_blank">Qué es Bootstrap, para qué sirve y cómo funciona</a> - Blog de HubSpot
+                    </li>
+                    <li>
+                        <a href="https://www.hostinger.mx/tutoriales/que-es-bootstrap" target="_blank">¿Qué es Bootstrap? - Todo lo que necesitas saber</a> - Hostinger
+                    </li>
+                    <li>
+                        <a href="https://rockcontent.com/es/blog/bootstrap/" target="_blank">Bootstrap: ¿qué es, para qué sirve y cómo instalarlo?</a> - Rock Content
+                    </li>
+                    <li>
+                        <a href="https://www.arsys.es/blog/guia-completa-sobre-bootstrap" target="_blank">Bootstrap: qué es, para qué sirve y cómo usarlo</a> - Blog de Arsys
+                    </li>
+                    <li>
+                        <a href="https://blog.hubspot.es/website/como-crear-una-pagina-web" target="_blank">Cómo crear una página web: guía para principiantes</a> - Blog de HubSpot
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- Enlace a los scripts de Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
