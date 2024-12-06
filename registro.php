@@ -85,7 +85,7 @@
 
 <?php
 //Conexion a la base de datos
-require '../conexion.php';
+require 'conexion.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 	
@@ -131,7 +131,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $stmt_insert->close();
     $conn->close();
 } else {
-    echo "Método no permitido.";
 }
 ?>
 
