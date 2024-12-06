@@ -14,7 +14,11 @@ Boutique KLYL es una página web de comercio electrónico diseñada para ofrecer
 
 ## Tecnologías Utilizadas
 
-- **Frontend**: HTML, CSS, JavaScript
+- **Frontend**: HTML, CSS, JavaScript, php
+
+## Base de datos
+
+
 
 
 ## Licencia
